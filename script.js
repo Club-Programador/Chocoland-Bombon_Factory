@@ -25,6 +25,8 @@ function bombonImg() {
             return BombonBailey;
         } else if (relleno == "frutado") {
             return BombonCafe;
+        } else {
+            return "";
         }
     } else if (cobertura == "chocolateNegro") {
         if (relleno == "dulceDeLeche") {
@@ -33,6 +35,8 @@ function bombonImg() {
             return BombonFrutilla;
         } else if (relleno == "frutado") {
             return BombonLima;
+        } else {
+            return "";
         }
     } else if (cobertura == "mixto") {
         if (relleno == "dulceDeLeche") {
@@ -41,7 +45,11 @@ function bombonImg() {
             return BombonMarroc;
         } else if (relleno == "frutado") {
             return BombonNutella;
+        } else {
+            return "";
         }
+    } else {
+        return "";
     }
 }
 
