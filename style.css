@@ -6,14 +6,17 @@
 *{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
 h1{
     color: white;
     text-align: center;
     position: relative;
 }
+
 p{
     color: white;
 }
+
 strong{
     color: white;
 }
@@ -27,7 +30,6 @@ strong{
     background-image: fixed;
     background-repeat: no-repeat;
 }
-
 
 .imagen{
     position: absolute;
@@ -45,14 +47,11 @@ strong{
     transition: .7s;
 }
 
-#imagendebombom{
-    
-    
-    
-    justify-content: center;
-    align-items: center;
-    
-}
+/* #imagendebombom{     */
+    /* justify-content: center; */
+    /* align-items: center; */
+/* } */
+
 #imagencentrada{
     display: flex;
     flex-wrap: wrap;
