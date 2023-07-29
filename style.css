@@ -39,3 +39,21 @@ h1{
     color: #8cd40d;
     transition: .7s;
 }
+
+#imagendebombom{
+    
+    
+    
+    justify-content: center;
+    align-items: center;
+    
+}
+#imagencentrada{
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
