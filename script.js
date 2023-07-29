@@ -21,33 +21,25 @@ function bombonImg() {
     if (cobertura == "chocolateBlanco") {
         if (relleno == "dulceDeLeche") {
             return BombonFrutobosque;
-        }
-        else if (relleno == "almendrado") {
+        } else if (relleno == "almendrado") {
             return BombonBailey;
-        }
-        else if (relleno == "frutado") {
+        } else if (relleno == "frutado") {
             return BombonCafe;
         }
-    }
-    else if (cobertura == "chocolateNegro") {
+    } else if (cobertura == "chocolateNegro") {
         if (relleno == "dulceDeLeche") {
             return BombonDulceDeLeche;
-        }
-        else if (relleno == "almendrado") {
+        } else if (relleno == "almendrado") {
             return BombonFrutilla;
-        }
-        else if (relleno == "frutado") {
+        } else if (relleno == "frutado") {
             return BombonLima;
         }
-    }
-    else if (cobertura == "mixto") {
+    } else if (cobertura == "mixto") {
         if (relleno == "dulceDeLeche") {
             return BombonMaracuya;
-        }
-        else if (relleno == "almendrado") {
+        } else if (relleno == "almendrado") {
             return BombonMarroc;
-        }
-        else if (relleno == "frutado") {
+        } else if (relleno == "frutado") {
             return BombonNutella;
         }
     }
