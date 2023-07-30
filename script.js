@@ -14,7 +14,6 @@ const SELECT_RELLENO = document.getElementById("relleno");
 const CREATE_BUTTON = document.getElementById('create_button');
 const IMG_BOMBON = document.getElementById('img_bombon');
 
-
 function bombonImg() {
     const cobertura = SELECT_COBERTURA.value;
     const relleno = SELECT_RELLENO.value;
@@ -58,7 +57,7 @@ function display_bombon() {
     IMG_BOMBON.src = bombonImg();
     // volve a cargar a ver
 }
-let test;
+// let test;
 CREATE_BUTTON.addEventListener('click', function () {
     display_bombon();
 });
