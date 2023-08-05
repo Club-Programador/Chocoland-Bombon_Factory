@@ -33,14 +33,14 @@ strong{
 
 #logo{
     width: 100vw;
-    height: 300px;
+    /* height: 300px; */
 
 }
 
 .imagen{
     text-align: left;
     width: 100px;
-    height: 90px;
+    /* height: 90px; */
 }
 
 #create_button {
