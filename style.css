@@ -47,11 +47,6 @@ strong{
     transition: .7s;
 }
 
-/* #imagendebombom{     */
-    /* justify-content: center; */
-    /* align-items: center; */
-/* } */
-
 #imagencentrada{
     display: flex;
     flex-wrap: wrap;
