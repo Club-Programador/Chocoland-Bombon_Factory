@@ -50,7 +50,7 @@ function bombonImg() {
         else if (relleno == "frutado") {
             return BombonNutella;
         }
-    }
+    } 
 }
 
 function display_bombon() {
